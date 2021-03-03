@@ -24,10 +24,10 @@ publishDir = "docs"
   url = "/"
 
   [[menu.main]]
-  name = "Post"
+  name = "Posts"
   weight = 200
-  identifier = "post"
-  url = "/post/"
+  identifier = "posts"
+  url = "/posts/"
 
   [[menu.main]]
   name = "About"

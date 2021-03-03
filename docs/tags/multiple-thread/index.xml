@@ -9,19 +9,19 @@
     <lastBuildDate>Fri, 22 Jan 2021 20:41:50 +0900</lastBuildDate><atom:link href="https://zeroryuu.github.io/tags/multiple-thread/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Multiple Thread 03</title>
-      <link>https://zeroryuu.github.io/post/multiple-thread-03/</link>
+      <link>https://zeroryuu.github.io/posts/multiple-thread-03/</link>
       <pubDate>Fri, 22 Jan 2021 20:41:50 +0900</pubDate>
       
-      <guid>https://zeroryuu.github.io/post/multiple-thread-03/</guid>
+      <guid>https://zeroryuu.github.io/posts/multiple-thread-03/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Multiple Thread 02</title>
-      <link>https://zeroryuu.github.io/post/multiple-thread-02/</link>
+      <link>https://zeroryuu.github.io/posts/multiple-thread-02/</link>
       <pubDate>Fri, 22 Jan 2021 20:41:48 +0900</pubDate>
       
-      <guid>https://zeroryuu.github.io/post/multiple-thread-02/</guid>
+      <guid>https://zeroryuu.github.io/posts/multiple-thread-02/</guid>
       <description>&lt;h2 id=&#34;java-のスレッド&#34;&gt;Java のスレッド&lt;/h2&gt;
 &lt;h3 id=&#34;javaスレッドのlife-cycle&#34;&gt;javaスレッドのlife cycle&lt;/h3&gt;
 &lt;p&gt;&lt;img src=&#34;https://zeroryuu.github.io/images/java-thread-life-cycle.png&#34; alt=&#34;thread life cycle&#34;&gt;&lt;/p&gt;</description>
@@ -29,10 +29,10 @@
     
     <item>
       <title>Multiple Thread 01</title>
-      <link>https://zeroryuu.github.io/post/multiple-thread-01/</link>
+      <link>https://zeroryuu.github.io/posts/multiple-thread-01/</link>
       <pubDate>Fri, 22 Jan 2021 20:41:45 +0900</pubDate>
       
-      <guid>https://zeroryuu.github.io/post/multiple-thread-01/</guid>
+      <guid>https://zeroryuu.github.io/posts/multiple-thread-01/</guid>
       <description>&lt;h2 id=&#34;マルチスレッドの基本概念&#34;&gt;マルチスレッドの基本概念&lt;/h2&gt;
 &lt;h3 id=&#34;スレードとプロセス&#34;&gt;スレードとプロセス&lt;/h3&gt;
 &lt;h4 id=&#34;プロセス&#34;&gt;プロセス&lt;/h4&gt;

@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on zero&#39;s blog</title>
+    <link>https://zeroryuu.github.io/posts/</link>
+    <description>Recent content in Posts on zero&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 22 Jan 2021 20:41:50 +0900</lastBuildDate><atom:link href="https://zeroryuu.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Multiple Thread 03</title>
+      <link>https://zeroryuu.github.io/posts/multiple-thread-03/</link>
+      <pubDate>Fri, 22 Jan 2021 20:41:50 +0900</pubDate>
+      
+      <guid>https://zeroryuu.github.io/posts/multiple-thread-03/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Multiple Thread 02</title>
+      <link>https://zeroryuu.github.io/posts/multiple-thread-02/</link>
+      <pubDate>Fri, 22 Jan 2021 20:41:48 +0900</pubDate>
+      
+      <guid>https://zeroryuu.github.io/posts/multiple-thread-02/</guid>
+      <description>&lt;h2 id=&#34;java-のスレッド&#34;&gt;Java のスレッド&lt;/h2&gt;
+&lt;h3 id=&#34;javaスレッドのlife-cycle&#34;&gt;javaスレッドのlife cycle&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;https://zeroryuu.github.io/images/java-thread-life-cycle.png&#34; alt=&#34;thread life cycle&#34;&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Multiple Thread 01</title>
+      <link>https://zeroryuu.github.io/posts/multiple-thread-01/</link>
+      <pubDate>Fri, 22 Jan 2021 20:41:45 +0900</pubDate>
+      
+      <guid>https://zeroryuu.github.io/posts/multiple-thread-01/</guid>
+      <description>&lt;h2 id=&#34;マルチスレッドの基本概念&#34;&gt;マルチスレッドの基本概念&lt;/h2&gt;
+&lt;h3 id=&#34;スレードとプロセス&#34;&gt;スレードとプロセス&lt;/h3&gt;
+&lt;h4 id=&#34;プロセス&#34;&gt;プロセス&lt;/h4&gt;
+&lt;blockquote&gt;
+&lt;p&gt;プロセスとは、処理のことである。情報処理においてプログラムの動作中のインスタンスを意味し、プログラムのコードおよび全ての変数やその他の状態を含む。オペレーティングシステム (OS) によっては、プロセスが複数のスレッドで構成される場合があり、命令を同時並行して実行する。&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+    <item>
+      <title>Java Function Interface</title>
+      <link>https://zeroryuu.github.io/posts/java-function-interface/</link>
+      <pubDate>Fri, 15 Jan 2021 22:56:32 +0900</pubDate>
+      
+      <guid>https://zeroryuu.github.io/posts/java-function-interface/</guid>
+      <description>&lt;h2 id=&#34;定義&#34;&gt;定義&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;定義されている抽象メソッドが1つだけあるインターフェース。&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;privateメソッド、staticメソッドやデフォルトメソッドは含まれていても構わない
+関数型インターフェースの条件を満たしたインターフェースであれば、自動的に関数型インターフェースとして使用できる。
+FunctionalInterfaceアノテーションを付けていると、関数型インターフェースの条件を満たしていない場合にコンパイルエラーになってくれる。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>K8s Helm 09</title>
+      <link>https://zeroryuu.github.io/posts/k8s-helm-09/</link>
+      <pubDate>Mon, 11 Jan 2021 00:22:34 +0900</pubDate>
+      
+      <guid>https://zeroryuu.github.io/posts/k8s-helm-09/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>K8s Security 08</title>
+      <link>https://zeroryuu.github.io/posts/k8s-security-08/</link>
+      <pubDate>Mon, 11 Jan 2021 00:22:11 +0900</pubDate>
+      
+      <guid>https://zeroryuu.github.io/posts/k8s-security-08/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>K8s Handler 07</title>
+      <link>https://zeroryuu.github.io/posts/k8s-handler-07/</link>
+      <pubDate>Mon, 11 Jan 2021 00:21:44 +0900</pubDate>
+      
+      <guid>https://zeroryuu.github.io/posts/k8s-handler-07/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>K8s Storage 06</title>
+      <link>https://zeroryuu.github.io/posts/k8s-storage-06/</link>
+      <pubDate>Mon, 11 Jan 2021 00:20:24 +0900</pubDate>
+      
+      <guid>https://zeroryuu.github.io/posts/k8s-storage-06/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>K8s Service Disconvery 05</title>
+      <link>https://zeroryuu.github.io/posts/k8s-service-disconvery-05/</link>
+      <pubDate>Mon, 11 Jan 2021 00:17:30 +0900</pubDate>
+      
+      <guid>https://zeroryuu.github.io/posts/k8s-service-disconvery-05/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>K8s Pod Controller 04</title>
+      <link>https://zeroryuu.github.io/posts/k8s-pod-controller-04/</link>
+      <pubDate>Mon, 11 Jan 2021 00:16:36 +0900</pubDate>
+      
+      <guid>https://zeroryuu.github.io/posts/k8s-pod-controller-04/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>K8s Resource 03</title>
+      <link>https://zeroryuu.github.io/posts/k8s-resource-03/</link>
+      <pubDate>Mon, 11 Jan 2021 00:14:43 +0900</pubDate>
+      
+      <guid>https://zeroryuu.github.io/posts/k8s-resource-03/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>K8s Pod</title>
+      <link>https://zeroryuu.github.io/posts/k8s-pod-02/</link>
+      <pubDate>Mon, 11 Jan 2021 00:14:01 +0900</pubDate>
+      
+      <guid>https://zeroryuu.github.io/posts/k8s-pod-02/</guid>
+      <description>&lt;h2 id=&#34;k8s-podについて&#34;&gt;k8s Podについて&lt;/h2&gt;</description>
+    </item>
+    
+    <item>
+      <title>K8sのコンポネート</title>
+      <link>https://zeroryuu.github.io/posts/k8s-01/</link>
+      <pubDate>Sun, 10 Jan 2021 23:49:37 +0900</pubDate>
+      
+      <guid>https://zeroryuu.github.io/posts/k8s-01/</guid>
+      <description>&lt;h2 id=&#34;kubernetesとは&#34;&gt;Kubernetesとは&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;Kubernetesは、宣言的な構成管理と自動化を促進し、コンテナ化されたワークロードやサービスを管理するための、ポータブルで拡張性のあるオープンソースのプラットフォームです。&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;!-- raw HTML omitted --&gt;上記は公式ページの説明です。&lt;/p&gt;
+&lt;h2 id=&#34;提供する機能について&#34;&gt;提供する機能について&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;サービスディスカバリーと負荷分散&lt;/li&gt;
+&lt;li&gt;ストレージ　オーケストレーション&lt;/li&gt;
+&lt;li&gt;自動化されたロールアウトとロールバック&lt;/li&gt;
+&lt;li&gt;自動ビンパッキング&lt;/li&gt;
+&lt;li&gt;自己修復&lt;/li&gt;
+&lt;li&gt;機密情報と構成管理&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+    <item>
+      <title>Spring Boot</title>
+      <link>https://zeroryuu.github.io/posts/spring-boot/</link>
+      <pubDate>Thu, 07 Jan 2021 23:37:15 +0900</pubDate>
+      
+      <guid>https://zeroryuu.github.io/posts/spring-boot/</guid>
+      <description>&lt;h2 id=&#34;springbootとは&#34;&gt;SpringBootとは&lt;/h2&gt;
+&lt;h2 id=&#34;springbootの起動&#34;&gt;SpringBootの起動&lt;/h2&gt;</description>
+    </item>
+    
+    <item>
+      <title>Spring Batch</title>
+      <link>https://zeroryuu.github.io/posts/spring-batch/</link>
+      <pubDate>Wed, 06 Jan 2021 00:04:49 +0900</pubDate>
+      
+      <guid>https://zeroryuu.github.io/posts/spring-batch/</guid>
+      <description>&lt;h2 id=&#34;spring-batch-architecture&#34;&gt;Spring Batch Architecture&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;https://zeroryuu.github.io/images/spring-batch-layers.png&#34; alt=&#34;Spring Batch Architecture&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;applicationレイアー&#34;&gt;Applicationレイアー&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;all batch jobs&lt;/li&gt;
+&lt;li&gt;custom code by developers&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+    <item>
+      <title>SpringBoot Actuatorを使用してアプリの管理と監視を行う</title>
+      <link>https://zeroryuu.github.io/posts/application-monitoring-with-spring-boot-actuator/</link>
+      <pubDate>Sun, 20 Dec 2020 11:47:19 +0900</pubDate>
+      
+      <guid>https://zeroryuu.github.io/posts/application-monitoring-with-spring-boot-actuator/</guid>
+      <description>&lt;h2 id=&#34;springboot-actuatorとは&#34;&gt;SpringBoot Actuatorとは&lt;/h2&gt;
+&lt;p&gt;SpringBootアプリケーションを監視および管理するのための機能。
+機能を有効にするための設定方法は、&lt;code&gt;spring-boot-starter-actuator&lt;/code&gt;の「スターター」への依存関係を追加することです。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

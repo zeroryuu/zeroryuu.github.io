@@ -9,20 +9,20 @@
     <lastBuildDate>Thu, 07 Jan 2021 23:37:15 +0900</lastBuildDate><atom:link href="https://zeroryuu.github.io/categories/spring/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Spring Boot</title>
-      <link>https://zeroryuu.github.io/post/spring-boot/</link>
+      <link>https://zeroryuu.github.io/posts/spring-boot/</link>
       <pubDate>Thu, 07 Jan 2021 23:37:15 +0900</pubDate>
       
-      <guid>https://zeroryuu.github.io/post/spring-boot/</guid>
+      <guid>https://zeroryuu.github.io/posts/spring-boot/</guid>
       <description>&lt;h2 id=&#34;springbootとは&#34;&gt;SpringBootとは&lt;/h2&gt;
 &lt;h2 id=&#34;springbootの起動&#34;&gt;SpringBootの起動&lt;/h2&gt;</description>
     </item>
     
     <item>
       <title>Spring Batch</title>
-      <link>https://zeroryuu.github.io/post/spring-batch/</link>
+      <link>https://zeroryuu.github.io/posts/spring-batch/</link>
       <pubDate>Wed, 06 Jan 2021 00:04:49 +0900</pubDate>
       
-      <guid>https://zeroryuu.github.io/post/spring-batch/</guid>
+      <guid>https://zeroryuu.github.io/posts/spring-batch/</guid>
       <description>&lt;h2 id=&#34;spring-batch-architecture&#34;&gt;Spring Batch Architecture&lt;/h2&gt;
 &lt;p&gt;&lt;img src=&#34;https://zeroryuu.github.io/images/spring-batch-layers.png&#34; alt=&#34;Spring Batch Architecture&#34;&gt;&lt;/p&gt;
 &lt;h3 id=&#34;applicationレイアー&#34;&gt;Applicationレイアー&lt;/h3&gt;
@@ -34,10 +34,10 @@
     
     <item>
       <title>SpringBoot Actuatorを使用してアプリの管理と監視を行う</title>
-      <link>https://zeroryuu.github.io/post/application-monitoring-with-spring-boot-actuator/</link>
+      <link>https://zeroryuu.github.io/posts/application-monitoring-with-spring-boot-actuator/</link>
       <pubDate>Sun, 20 Dec 2020 11:47:19 +0900</pubDate>
       
-      <guid>https://zeroryuu.github.io/post/application-monitoring-with-spring-boot-actuator/</guid>
+      <guid>https://zeroryuu.github.io/posts/application-monitoring-with-spring-boot-actuator/</guid>
       <description>&lt;h2 id=&#34;springboot-actuatorとは&#34;&gt;SpringBoot Actuatorとは&lt;/h2&gt;
 &lt;p&gt;SpringBootアプリケーションを監視および管理するのための機能。
 機能を有効にするための設定方法は、&lt;code&gt;spring-boot-starter-actuator&lt;/code&gt;の「スターター」への依存関係を追加することです。&lt;/p&gt;</description>

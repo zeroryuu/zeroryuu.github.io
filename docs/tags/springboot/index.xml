@@ -9,10 +9,10 @@
     <lastBuildDate>Thu, 07 Jan 2021 23:37:15 +0900</lastBuildDate><atom:link href="https://zeroryuu.github.io/tags/springboot/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Spring Boot</title>
-      <link>https://zeroryuu.github.io/post/spring-boot/</link>
+      <link>https://zeroryuu.github.io/posts/spring-boot/</link>
       <pubDate>Thu, 07 Jan 2021 23:37:15 +0900</pubDate>
       
-      <guid>https://zeroryuu.github.io/post/spring-boot/</guid>
+      <guid>https://zeroryuu.github.io/posts/spring-boot/</guid>
       <description>&lt;h2 id=&#34;springbootとは&#34;&gt;SpringBootとは&lt;/h2&gt;
 &lt;h2 id=&#34;springbootの起動&#34;&gt;SpringBootの起動&lt;/h2&gt;</description>
     </item>
