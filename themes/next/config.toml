@@ -13,12 +13,10 @@ UglyUrls = false
 PygmentsStyle = "monokai"
 pygmentsCodefences = true
 pygmentsCodefencesGuessSyntax = true
-DefaultContentLanguage = "zh"
-
 
 [Params]
   DateFormat = "2006-01-02"
-  YearFormat = "2006年"
+  YearFormat = "2006"
   MonthFormat = "01-02"
   Fancybox = true
 
