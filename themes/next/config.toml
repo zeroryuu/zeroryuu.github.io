@@ -1,4 +1,4 @@
-baseURL = "http://zeroryuu.github.io/"
+baseURL = "https://zeroryuu.github.io/"
 languageCode = "en-us"
 Theme =  "next"
 MetaDataFormat =  "yaml"

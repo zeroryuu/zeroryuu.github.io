@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>k8s on zero&#39;s blog</title>
+    <link>https://zeroryuu.github.io/tags/k8s/</link>
+    <description>Recent content in k8s on zero&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 11 Jan 2021 00:22:34 +0900</lastBuildDate><atom:link href="https://zeroryuu.github.io/tags/k8s/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>K8s Helm 09</title>
+      <link>https://zeroryuu.github.io/post/k8s-helm-09/</link>
+      <pubDate>Mon, 11 Jan 2021 00:22:34 +0900</pubDate>
+      
+      <guid>https://zeroryuu.github.io/post/k8s-helm-09/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>K8s Security 08</title>
+      <link>https://zeroryuu.github.io/post/k8s-security-08/</link>
+      <pubDate>Mon, 11 Jan 2021 00:22:11 +0900</pubDate>
+      
+      <guid>https://zeroryuu.github.io/post/k8s-security-08/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>K8s Handler 07</title>
+      <link>https://zeroryuu.github.io/post/k8s-handler-07/</link>
+      <pubDate>Mon, 11 Jan 2021 00:21:44 +0900</pubDate>
+      
+      <guid>https://zeroryuu.github.io/post/k8s-handler-07/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>K8s Storage 06</title>
+      <link>https://zeroryuu.github.io/post/k8s-storage-06/</link>
+      <pubDate>Mon, 11 Jan 2021 00:20:24 +0900</pubDate>
+      
+      <guid>https://zeroryuu.github.io/post/k8s-storage-06/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>K8s Service Disconvery 05</title>
+      <link>https://zeroryuu.github.io/post/k8s-service-disconvery-05/</link>
+      <pubDate>Mon, 11 Jan 2021 00:17:30 +0900</pubDate>
+      
+      <guid>https://zeroryuu.github.io/post/k8s-service-disconvery-05/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>K8s Pod Controller 04</title>
+      <link>https://zeroryuu.github.io/post/k8s-pod-controller-04/</link>
+      <pubDate>Mon, 11 Jan 2021 00:16:36 +0900</pubDate>
+      
+      <guid>https://zeroryuu.github.io/post/k8s-pod-controller-04/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>K8s Resource 03</title>
+      <link>https://zeroryuu.github.io/post/k8s-resource-03/</link>
+      <pubDate>Mon, 11 Jan 2021 00:14:43 +0900</pubDate>
+      
+      <guid>https://zeroryuu.github.io/post/k8s-resource-03/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>K8s Pod</title>
+      <link>https://zeroryuu.github.io/post/k8s-pod-02/</link>
+      <pubDate>Mon, 11 Jan 2021 00:14:01 +0900</pubDate>
+      
+      <guid>https://zeroryuu.github.io/post/k8s-pod-02/</guid>
+      <description>&lt;h2 id=&#34;k8s-podについて&#34;&gt;k8s Podについて&lt;/h2&gt;</description>
+    </item>
+    
+    <item>
+      <title>K8sのコンポネート</title>
+      <link>https://zeroryuu.github.io/post/k8s-01/</link>
+      <pubDate>Sun, 10 Jan 2021 23:49:37 +0900</pubDate>
+      
+      <guid>https://zeroryuu.github.io/post/k8s-01/</guid>
+      <description>&lt;h2 id=&#34;kubernetesとは&#34;&gt;Kubernetesとは&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;Kubernetesは、宣言的な構成管理と自動化を促進し、コンテナ化されたワークロードやサービスを管理するための、ポータブルで拡張性のあるオープンソースのプラットフォームです。&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;!-- raw HTML omitted --&gt;上記は公式ページの説明です。&lt;/p&gt;
+&lt;h2 id=&#34;提供する機能について&#34;&gt;提供する機能について&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;サービスディスカバリーと負荷分散&lt;/li&gt;
+&lt;li&gt;ストレージ　オーケストレーション&lt;/li&gt;
+&lt;li&gt;自動化されたロールアウトとロールバック&lt;/li&gt;
+&lt;li&gt;自動ビンパッキング&lt;/li&gt;
+&lt;li&gt;自己修復&lt;/li&gt;
+&lt;li&gt;機密情報と構成管理&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

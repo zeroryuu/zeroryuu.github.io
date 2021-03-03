@@ -1,3 +1,230 @@
 <search>
     
+     <entry>
+        <title>Multiple Thread 03</title>
+        <url>https://zeroryuu.github.io/post/multiple-thread-03/</url>
+        <categories>
+          <category>java</category>
+        </categories>
+        <tags>
+          <tag>Multiple Thread</tag>
+        </tags>
+        <content type="html"> </content>
+    </entry>
+    
+     <entry>
+        <title>Multiple Thread 02</title>
+        <url>https://zeroryuu.github.io/post/multiple-thread-02/</url>
+        <categories>
+          <category>java</category>
+        </categories>
+        <tags>
+          <tag>Multiple Thread</tag>
+        </tags>
+        <content type="html"> Java のスレッド javaスレッドのlife cycle スレッドの生成方法 implements Runnable  実行結果を返却しない  extends Thread  実行結果を返却しない  Callable &#43; Future or Callable &#43; FutureTask   実行結果を返却する
+  Callable &#43; Future sample code
+  public class CallableTask implements Callable&amp;lt;String&amp;gt; { @Override public String call() throws Exception { System.out.println(Thread.currentThread().getName() &#43;&amp;quot; is running&amp;quot;); return &amp;quot;execute end&amp;quot;; } public static void main(String[] args) throws Exception { CallableTask callableTask = new CallableTask(); // create execute service ExecutorService executorService = Executors.newFixedThreadPool(1); // submit Future&amp;lt;String&amp;gt; result = executorService.submit(callableTask); //get result System.out.println(result.get()); //shutdown executorService.shutdown(); } } Future doc
+ Callable &#43; FutureTask sample code  .......... FutureTask&amp;lt;String&amp;gt; futureTask = new FutureTask&amp;lt;&amp;gt;(callableTask); new Thread(futureTask).start(); System.out.println(futureTask.get()); FutureTask doc
+スレッドの停止  フラグを設置する  スレッドの通知と待ち 待ち(wait())  呼び出したスレッドはそのオブジェクトのウェイトセットに入ります。  注意 synchronized blockの中に呼び出す。 synchronized block以外のところから呼び出すすると、throw IllegalMonitorStateException    通知(notify(),notifyAll())  そのオブジェクトのウェイトセットにあるスレッドが1つ再開します。  複数の場合、その中の一つを再開します。 注意 synchronized blockの中に呼び出す。   </content>
+    </entry>
+    
+     <entry>
+        <title>Multiple Thread 01</title>
+        <url>https://zeroryuu.github.io/post/multiple-thread-01/</url>
+        <categories>
+          <category>java</category>
+        </categories>
+        <tags>
+          <tag>Multiple Thread</tag>
+        </tags>
+        <content type="html"> マルチスレッドの基本概念 スレードとプロセス プロセス  プロセスとは、処理のことである。情報処理においてプログラムの動作中のインスタンスを意味し、プログラムのコードおよび全ての変数やその他の状態を含む。オペレーティングシステム (OS) によっては、プロセスが複数のスレッドで構成される場合があり、命令を同時並行して実行する。
+ プロセス Wikipedia
+スレッド  スレッド（thread）とは、CPU利用の単位。プロセスに比べて、プログラムを実行するときのコンテキスト情報が最小で済むので切り替えが速くなる。スレッドは、thread of execution（実行の脈絡）という言葉を省略したものである。 プログラミングの観点からみると、アプリケーションの処理の「実行の脈絡」は1つでないことが多い。
+ スレッド Wikipedia
+ プロセスは 1 つ以上のスレッドを持ちます。 スレッドは独自で存在できない。 CPU コア数 ＝ 同時実行できるスレッド数 同一プロセス内のスレッドはメモリ空間を共有できる *　共有 heap areaと method area Program Counterとstackはスレッド専有エリア。  並行性と並列性 並行性 マルチスレッドプロセスがシングルプロセッサ上で動作する場合は、プロセッサが実行リソースを各スレッドに順次切り替えて割り当てるため、プロセスの実行状態は並行的になります。
+並列性 同じマルチスレッドプロセスが共有メモリー方式のマルチプロセッサ上で動作する場合は、プロセス中の各スレッドが別のプロセッサ上で同時に走行するため、プロセスの実行状態は並列的になります。
+マルチスレッドの利点 アプリケーションの応答性の改善 マルチプロセッサの効率的な利用 プログラム構造の改善 システムリソースの節約 スレッドと RPC の併用</content>
+    </entry>
+    
+     <entry>
+        <title>Java Function Interface</title>
+        <url>https://zeroryuu.github.io/post/java-function-interface/</url>
+        <categories>
+          <category>java</category>
+        </categories>
+        <tags>
+          <tag>function</tag>
+        </tags>
+        <content type="html"> 定義 定義されている抽象メソッドが1つだけあるインターフェース。
+privateメソッド、staticメソッドやデフォルトメソッドは含まれていても構わない 関数型インターフェースの条件を満たしたインターフェースであれば、自動的に関数型インターフェースとして使用できる。 FunctionalInterfaceアノテーションを付けていると、関数型インターフェースの条件を満たしていない場合にコンパイルエラーになってくれる。
+関数型インターフェースの使用  メソッドのパラメータ メソッドの戻り型  関数型インターフェースの分類 Supplier（get）系  引数なしで、結果のサプライヤを表します。  Function（apply）系  1つの引数を受け取って結果を生成する関数を表します。  Consumer（accept）系  単一の入力引数を受け取って結果を返さないオペレーションを表します。  Predicate（test）系  1つの引数の述語(boolean値関数)を表します。  関数型インターフェースの詳細 Package java.util.function
+</content>
+    </entry>
+    
+     <entry>
+        <title>K8s Helm 09</title>
+        <url>https://zeroryuu.github.io/post/k8s-helm-09/</url>
+        <categories>
+          <category>cloud</category>
+        </categories>
+        <tags>
+          <tag>k8s</tag>
+        </tags>
+        <content type="html"> </content>
+    </entry>
+    
+     <entry>
+        <title>K8s Security 08</title>
+        <url>https://zeroryuu.github.io/post/k8s-security-08/</url>
+        <categories>
+          <category>cloud</category>
+        </categories>
+        <tags>
+          <tag>k8s</tag>
+        </tags>
+        <content type="html"> </content>
+    </entry>
+    
+     <entry>
+        <title>K8s Handler 07</title>
+        <url>https://zeroryuu.github.io/post/k8s-handler-07/</url>
+        <categories>
+          <category>cloud</category>
+        </categories>
+        <tags>
+          <tag>k8s</tag>
+        </tags>
+        <content type="html"> </content>
+    </entry>
+    
+     <entry>
+        <title>K8s Storage 06</title>
+        <url>https://zeroryuu.github.io/post/k8s-storage-06/</url>
+        <categories>
+          <category>cloud</category>
+        </categories>
+        <tags>
+          <tag>k8s</tag>
+        </tags>
+        <content type="html"> </content>
+    </entry>
+    
+     <entry>
+        <title>K8s Service Disconvery 05</title>
+        <url>https://zeroryuu.github.io/post/k8s-service-disconvery-05/</url>
+        <categories>
+          <category>cloud</category>
+        </categories>
+        <tags>
+          <tag>k8s</tag>
+        </tags>
+        <content type="html"> </content>
+    </entry>
+    
+     <entry>
+        <title>K8s Pod Controller 04</title>
+        <url>https://zeroryuu.github.io/post/k8s-pod-controller-04/</url>
+        <categories>
+          <category>cloud</category>
+        </categories>
+        <tags>
+          <tag>k8s</tag>
+        </tags>
+        <content type="html"> </content>
+    </entry>
+    
+     <entry>
+        <title>K8s Resource 03</title>
+        <url>https://zeroryuu.github.io/post/k8s-resource-03/</url>
+        <categories>
+          <category>cloud</category>
+        </categories>
+        <tags>
+          <tag>k8s</tag>
+        </tags>
+        <content type="html"> </content>
+    </entry>
+    
+     <entry>
+        <title>K8s Pod</title>
+        <url>https://zeroryuu.github.io/post/k8s-pod-02/</url>
+        <categories>
+          <category>cloud</category>
+        </categories>
+        <tags>
+          <tag>k8s</tag>
+        </tags>
+        <content type="html"> k8s Podについて</content>
+    </entry>
+    
+     <entry>
+        <title>K8sのコンポネート</title>
+        <url>https://zeroryuu.github.io/post/k8s-01/</url>
+        <categories>
+          <category>cloud</category>
+        </categories>
+        <tags>
+          <tag>k8s</tag>
+        </tags>
+        <content type="html"> Kubernetesとは Kubernetesは、宣言的な構成管理と自動化を促進し、コンテナ化されたワークロードやサービスを管理するための、ポータブルで拡張性のあるオープンソースのプラットフォームです。
+上記は公式ページの説明です。
+提供する機能について  サービスディスカバリーと負荷分散 ストレージ　オーケストレーション 自動化されたロールアウトとロールバック 自動ビンパッキング 自己修復 機密情報と構成管理  K8sのコンポネートと役割 cloud-controller manager kube-controller manager  replica数をコントロールする。  kube-api server  k8sの全てのサービスのアクセス入り口  kube-api scheduler  最適なNodeを選択する NodeへのPodの割り当てを行います。  etcd  k8s clusterの重要情報を保存する。  重要情報：永続性の情報    kublet  コンテナエンジンと直接通信する。 コンテナのライフスタイルを管理する。  kube-proxy  各ノード上で稼働します UDP、TCP、SCTPをプロキシーします HTTPを解釈しません 負荷分散機能を提供します Serviceへ到達させるためのみに使用されます  other  COREDNS DashBoard ingress controller prometheus Federation ELK </content>
+    </entry>
+    
+     <entry>
+        <title>Spring Boot</title>
+        <url>https://zeroryuu.github.io/post/spring-boot/</url>
+        <categories>
+          <category>Spring</category>
+        </categories>
+        <tags>
+          <tag>SpringBoot</tag>
+        </tags>
+        <content type="html"> SpringBootとは SpringBootの起動 SpringBootのautoConfiguration Corsリクエストのサポート</content>
+    </entry>
+    
+     <entry>
+        <title>Spring Batch</title>
+        <url>https://zeroryuu.github.io/post/spring-batch/</url>
+        <categories>
+          <category>Spring</category>
+        </categories>
+        <tags>
+          <tag>SpringBatch</tag>
+        </tags>
+        <content type="html"> Spring Batch Architecture Applicationレイアー  all batch jobs custom code by developers  Batch Coreレイアー  バッチジョブの起動 バッチジョブの制御 JobLauncher,Job,Stepの実装  Batch Infrastructureレイアー  common readers  such as ItemReader   common writers  such as ItemWriter   services  such as the RetryTemplate   core framework  Spring Batchの概念 JobRepository   JobやStepの実行状況や実行結果を保存しておくところ。
+  管理情報は、SpringBatchが規程するテーブルスキーマを元にデータベース上に永続化される。
+   Entityクラス テーブル名 説明     JobExecution BATCH_JOB_EXECUTION ジョブの状態・実行結果の保持する。1回のジョブ実行   JobExecutionContext BATCH_JOB_EXECUTION ジョブ内部のコンテキストを保持する。1回のジョブ実行   JobExecutionParams BATCH_JOB_EXECUTION_PARAMS 起動時に当られたジョブパラメータを保持する。1回のジョブ実行   StepExecution BATCH_STEP_EXECUTION ステップの状態・実行結果、コミット・ロールバック件数を保持する。1回のステップ実行   StepExecutionContext BATCH_STEP_EXECUTION_CONTEXT ステップ内部のコンテキストを保持する。1回のステップ実行   JobInstance BATCH_JOB_INSTANCE ジョブ名、及びジョブパラメータをシリアライズした文字列を保持する。ジョブ名とジョブパラメータの組み合わせ      上記のテーブル手動で作るが必要です。
+ DDL Scripts    @EnableBatchProcessingannotation利用すると、frameworkからJobRepositoryを提供します。
+  カスタマイズの場合、BatchConfigurerインターフェースをimplementsしてカスタマイズができます。
+  JobLauncher  ジョブを起動するためのインタフェース。 基も基本的な実装はSimpleJobLauncherです.  注意: Httpリクエストから起動しようとする時、SimpleJobLauncherが呼び出し元にすぐに戻るように、起動を非同期で行う必要がありあります。    Job  SpringBatchにおけるバッチアップリケーションの一連の処理をまとめた１実行単位。 ジョブの実行  JobLauncher一つとjob一つが必要です。    Step  ジョブを構成する処理の単位。1つのジョブに1~N個のStepを持たせることが可能です。 一つのジョブを複数のStepに分割して処理することにより、処理の再利用、並列化、条件分岐が可能です。 チャンクモデルまだタスクレットモデルのいずれがで実装する。  ItemReader,ItemProcessor,ItemWriter  チャンクモデルを実装する際に、データの入力/加工/出力の三つに分割するためのインタフェース。 タスクレットモデルでは,タスクレット内に入出力、入力チェック、ビジネスロジックのすべてを実装する必要がある。  Listener   Job、Step、ItemReader、ItemProcessor、ItemWriter各段階の実行状況について、Listenerで監視ができます。
+  利用頻度が高いのは下記の二つです。
+ JobListener: ジョブの実行に対して処理を挟み込むためのインターフェース StepListener: ステップの実行に対して処理を挟み込むためのインターフェース    その他のリスナー
+ ChunkListener、ItemReadListener、ItemProcessListener、ItemWriteListener    リスナーの実装
+ 各種リスナーインターフェースをimplementsして実装する。 各種リスナーインターフェースに対応したアノテーションを付与する。     リスナーインターフェース アノテーション     JobExecutionListener @beforeJob@afterJob   StepExecutionListener @BeforeStep@AfterStep   ChunkListener @BeforeChunk@AfterChunk@afterChunkError   ItemReadListener @BeforeRead@AfterRead@OnReadError   ItemProcessListener @beforeProcess@afterProcess@onProcessError   ItemWriteListener @BeforeWrite@AfterWrite@OnWriteError     </content>
+    </entry>
+    
+     <entry>
+        <title>SpringBoot Actuatorを使用してアプリの管理と監視を行う</title>
+        <url>https://zeroryuu.github.io/post/application-monitoring-with-spring-boot-actuator/</url>
+        <categories>
+          <category>Spring</category>
+        </categories>
+        <tags>
+          <tag>Spring</tag><tag>Monitor</tag>
+        </tags>
+        <content type="html"> SpringBoot Actuatorとは SpringBootアプリケーションを監視および管理するのための機能。 機能を有効にするための設定方法は、spring-boot-starter-actuatorの「スターター」への依存関係を追加することです。
+  Maven ベースのプロジェクト
+&amp;lt;dependencies&amp;gt; &amp;lt;dependency&amp;gt; &amp;lt;groupId&amp;gt;org.springframework.boot&amp;lt;/groupId&amp;gt; &amp;lt;artifactId&amp;gt;spring-boot-starter-actuator&amp;lt;/artifactId&amp;gt; &amp;lt;/dependency&amp;gt; &amp;lt;/dependencies&amp;gt;   Gradle の場合、
+dependencies { implementation &#39;org.springframework.boot:spring-boot-starter-actuator&#39; }   Endpoints 分類  built-in endpoints  configure (for example :health) metric(for example :　metric,) other (for example: trace,shutdown)   customize　endpoints  endpoints詳細
+endpointsのアクセス方法  HTTP  GETで取得する、POSTで変更する  curl -XGET localhost:8080/actuator/health curl -XPOST localhost:8080/actuator/loggers/org.springframe -H &amp;lsquo;Content-Type: application/json&amp;rsquo; -d &amp;lsquo;{&amp;ldquo;configuredLevel&amp;rdquo;:&amp;ldquo;DEBUG&amp;rdquo;}&amp;rsquo;     JMX  endpoints有効・無効の設定 management: server: port: 8808 //default applicationと同じport, Actuatorのみportを分けることも可能です。　//port: -1：HTTP 経由でエンドポイントを公開したくない address: &amp;quot;127.0.0.1&amp;quot; //リモード接続不可 endpoints: shutdown: enabled: true　//shutdown endpoint有効にする web: base-path: /manage　//default /actuator exposure: include: &#39;*&#39; // default /healthと/infoのみ公開 exclude: env　// /endpoint除外する endpoint: health: show-details: ALWAYS endpointのカスタマイズ カスタマイズ方法   新規作成
+@Component @WebEndpoint(id = &amp;quot;custom&amp;quot;) // localhost:8080/actuator/customでアクセスする public class CustomEndpoint { @ReadOperation public Map&amp;lt;String,String&amp;gt; readEndPoint() { Map&amp;lt;String,String&amp;gt; point = new ConcurrentHashMap&amp;lt;&amp;gt;(); point.put(&amp;quot;name&amp;quot;,&amp;quot;customEndpoint&amp;quot;); point.put(&amp;quot;now time is:&amp;quot;, LocalDateTime.now().format(DateTimeFormatter.ofPattern(&amp;quot;yyyy-MM-dd HH:mm:ss&amp;quot;))); return point; } }   既存endpointの拡張
+ implements XXXContributor ex: /info endpointを拡張したい場合、  public class CustomInfoContributor implements InfoContributor{}      開発に役に立つendpoint  env  Enviromentオブジェクトに登録されているプロパティの値を一覧で確認することができます。 動作環境によって設定値を切り替えている環境などでは正常に切り替わっているか確認することができます。 注意設定値にIPアドレスやユーザー / パスワードなどの情報を含んでいる可能性があることです。   mappings  @RequestMappingで定義しているアクセスポイントを一覧で確認することができます。   loggers  アプリケーションが再起動せずに、グレベルの確認・変更が可能です。  curl -XPOST localhost:8080/actuator/loggers/org.springframe -H &amp;lsquo;Content-Type: application/json&amp;rsquo; -d &amp;lsquo;{&amp;ldquo;configuredLevel&amp;rdquo;:&amp;ldquo;DEBUG&amp;rdquo;}&amp;rsquo;      Actuatorの本番環境適用 エンドポイントの保護   アップリケーションが公開されている場合は、エンドポイントの保護が必要です。
+  /actuatorのみ保護する
+.pathMatchers(&amp;quot;/actuator/**&amp;quot;) .hasAuthority(&amp;quot;ROLE_ADMIN&amp;quot;)     Spring Security モジュールを導入する.(pom.xml or build.gradleの設定を略する)
+  認証
+ public class CustomAuthenticationProvider implements AuthenticationProvider    Whitelist IP Range
+ http.authorizeRequests().antMatchers(&amp;quot;/actuator/**&amp;quot;).access(whiteIpList)    最後 Spring Boot AdminでUIで管理できます。 </content>
+    </entry>
+    
 </search>

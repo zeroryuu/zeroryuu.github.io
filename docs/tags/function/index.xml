@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>function on zero&#39;s blog</title>
+    <link>https://zeroryuu.github.io/tags/function/</link>
+    <description>Recent content in function on zero&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 15 Jan 2021 22:56:32 +0900</lastBuildDate><atom:link href="https://zeroryuu.github.io/tags/function/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Java Function Interface</title>
+      <link>https://zeroryuu.github.io/post/java-function-interface/</link>
+      <pubDate>Fri, 15 Jan 2021 22:56:32 +0900</pubDate>
+      
+      <guid>https://zeroryuu.github.io/post/java-function-interface/</guid>
+      <description>&lt;h2 id=&#34;定義&#34;&gt;定義&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;定義されている抽象メソッドが1つだけあるインターフェース。&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;privateメソッド、staticメソッドやデフォルトメソッドは含まれていても構わない
+関数型インターフェースの条件を満たしたインターフェースであれば、自動的に関数型インターフェースとして使用できる。
+FunctionalInterfaceアノテーションを付けていると、関数型インターフェースの条件を満たしていない場合にコンパイルエラーになってくれる。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

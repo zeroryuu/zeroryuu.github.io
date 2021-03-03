@@ -4,19 +4,19 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" /> 
-    <title>Tags - zero&#39;s blog</title>
+    <title>Java Function Interface - zero&#39;s blog</title>
     <meta name="keywords" content="">
     
-    <meta property="og:title" content="Tags">
+    <meta property="og:title" content="Java Function Interface">
     <meta property="og:site_name" content="zero&#39;s blog">
     <meta property="og:image" content="/img/author.jpg"> 
-    <meta name="title" content="Tags - zero&#39;s blog" />
+    <meta name="title" content="Java Function Interface - zero&#39;s blog" />
     <meta name="description" content=""> 
     <link rel="shortcut icon" href="https://zeroryuu.github.io/img/favicon.ico" />
     <link rel="apple-touch-icon" href="https://zeroryuu.github.io/img/apple-touch-icon.png" />
     <link rel="apple-touch-icon-precomposed" href="https://zeroryuu.github.io/img/apple-touch-icon.png" />
     <link href="https://zeroryuu.github.io/js/vendor/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
-    
+    <link href="https://zeroryuu.github.io/js/vendor/fancybox/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
     <link href="https://zeroryuu.github.io/css/main.css" rel="stylesheet" type="text/css" />
     <link href="https://zeroryuu.github.io/css/syntax.css" rel="stylesheet" type="text/css" />
     <script type="text/javascript" id="hexo.configuration">
@@ -24,13 +24,13 @@
   var CONFIG = {
     scheme: 'Pisces',
     sidebar: {"position":"left","display":"post"},
-    fancybox: false, 
+     fancybox: true, 
     motion: true
   };
 </script>
 </head>
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
-<div class="container one-collumn sidebar-position-left   ">
+<div class="container one-collumn sidebar-position-left page-home  ">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -99,41 +99,117 @@
         <div class="content-wrap">
           <div id="content" class="content">
             
-<div id="posts" class="posts-expand">
-    
+<section id="posts" class="posts-expand">
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <header class="post-header">
+      <h1 class="post-title" itemprop="name headline">
+        <a class="post-title-link" href="https://zeroryuu.github.io/post/java-function-interface/" itemprop="url">
+        Java Function Interface
+        </a>
+      </h1>
+      <div class="post-meta">
+      <span class="post-time">
+<span class="post-meta-item-icon">
+    <i class="fa fa-calendar-o"></i>
+</span>
+<span class="post-meta-item-text">Published at:</span>
+<time itemprop="dateCreated" datetime="2016-03-22T13:04:35+08:00" content="2021-01-15">
+    2021-01-15
+</time>
+</span>
+      
 
-      
-       <div class="tag-cloud">
-        <div class="tag-cloud-title">
-            Total 7 tags
-        </div>
-        <div class="tag-cloud-tags">
-            
-             <a href="https://zeroryuu.github.io/tags/function" style="font-size: 24.5px; color: #212121">function</a>
-             <span class="tag-list-count"><sup>1</sup></span>
-             
-             <a href="https://zeroryuu.github.io/tags/k8s" style="font-size: 24.5px; color: #212121">k8s</a>
-             <span class="tag-list-count"><sup>9</sup></span>
-             
-             <a href="https://zeroryuu.github.io/tags/monitor" style="font-size: 24.5px; color: #212121">monitor</a>
-             <span class="tag-list-count"><sup>1</sup></span>
-             
-             <a href="https://zeroryuu.github.io/tags/multiple-thread" style="font-size: 24.5px; color: #212121">multiple-thread</a>
-             <span class="tag-list-count"><sup>3</sup></span>
-             
-             <a href="https://zeroryuu.github.io/tags/spring" style="font-size: 24.5px; color: #212121">spring</a>
-             <span class="tag-list-count"><sup>1</sup></span>
-             
-             <a href="https://zeroryuu.github.io/tags/springbatch" style="font-size: 24.5px; color: #212121">springbatch</a>
-             <span class="tag-list-count"><sup>1</sup></span>
-             
-             <a href="https://zeroryuu.github.io/tags/springboot" style="font-size: 24.5px; color: #212121">springboot</a>
-             <span class="tag-list-count"><sup>1</sup></span>
-             
-        </div>
-       </div>
-      
+  <span class="post-category" >
+  &nbsp; | &nbsp;
+  <span class="post-meta-item-icon">
+    <i class="fa fa-folder-o"></i>
+  </span>
+  <span class="post-meta-item-text">Categories:</span>
+  
+    <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
+      <a href="https://zeroryuu.github.io/categories/java" itemprop="url" rel="index">
+        <span itemprop="name">java</span>
+      </a>
+      &nbsp; 
+    </span>
+  
+</span>
+
+
+       <span>
+&nbsp; | &nbsp;
+<span class="post-meta-item-icon">
+    <i class="fa fa-eye"></i>
+</span>
+<span class="post-meta-item-text">Reading:</span>
+<span class="leancloud-visitors-count">20 words ~1min</span>
+</span>
+      </div>
+    </header>
+    <div class="post-body" itemprop="articleBody">
+    <h2 id="定義">定義</h2>
+<p><code>定義されている抽象メソッドが1つだけあるインターフェース。</code></p>
+<p>privateメソッド、staticメソッドやデフォルトメソッドは含まれていても構わない
+関数型インターフェースの条件を満たしたインターフェースであれば、自動的に関数型インターフェースとして使用できる。
+FunctionalInterfaceアノテーションを付けていると、関数型インターフェースの条件を満たしていない場合にコンパイルエラーになってくれる。</p>
+<h2 id="関数型インターフェースの使用">関数型インターフェースの使用</h2>
+<ul>
+<li>メソッドのパラメータ</li>
+<li>メソッドの戻り型</li>
+</ul>
+<h2 id="関数型インターフェースの分類">関数型インターフェースの分類</h2>
+<h3 id="supplierget系">Supplier（get）系</h3>
+<ul>
+<li>引数なしで、結果のサプライヤを表します。</li>
+</ul>
+<h3 id="functionapply系">Function（apply）系</h3>
+<ul>
+<li>1つの引数を受け取って結果を生成する関数を表します。</li>
+</ul>
+<h3 id="consumeraccept系">Consumer（accept）系</h3>
+<ul>
+<li>単一の入力引数を受け取って結果を返さないオペレーションを表します。</li>
+</ul>
+<h3 id="predicatetest系">Predicate（test）系</h3>
+<ul>
+<li>1つの引数の述語(boolean値関数)を表します。</li>
+</ul>
+<h3 id="関数型インターフェースの詳細">関数型インターフェースの詳細</h3>
+<p><img src="https://zeroryuu.github.io/images/java-util-function.png" alt="java.util.function"></p>
+<p><a href="https://docs.oracle.com/javase/8/docs/api/java/util/function/package-summary.html">Package java.util.function</a></p>
+    </div>
+    <footer class="post-footer">
+     
+ 
+<div class="post-tags">     
+     
+    <a href="https://zeroryuu.github.io/tags/function" rel="tag" title="function">#function#</a>
+    
 </div>
+
+
+
+     <div class="post-nav">
+    <div class="post-nav-next post-nav-item">
+    
+        <a href="https://zeroryuu.github.io/post/multiple-thread-01/" rel="next" title="Multiple Thread 01">
+        <i class="fa fa-chevron-left"></i> Multiple Thread 01
+        </a>
+    
+    </div>
+
+    <div class="post-nav-prev post-nav-item">
+    
+        <a href="https://zeroryuu.github.io/post/k8s-helm-09/" rel="prev" title="K8s Helm 09">
+        K8s Helm 09 <i class="fa fa-chevron-right"></i>
+        </a>
+    
+    </div>
+</div>
+      
+    </footer>
+  </article>
+</section>
 
           </div>
         </div>
@@ -233,16 +309,18 @@
 <script type="text/javascript" src="https://zeroryuu.github.io/js/vendor/velocity/velocity.ui.min.js?v=1.2.1"></script>
 <script src="https://zeroryuu.github.io/js/vendor/ua-parser-js/dist/ua-parser.min.js?v=0.7.9"></script>
 
+<script src="https://zeroryuu.github.io/js/vendor/fancybox/jquery.fancybox.pack.js?v=2.1.5"></script>
+
 <script type="text/javascript" src="https://zeroryuu.github.io/js/utils.js"></script>
 <script type="text/javascript" src="https://zeroryuu.github.io/js/motion.js"></script>
 <script type="text/javascript" src="https://zeroryuu.github.io/js/affix.js"></script>
 <script type="text/javascript" src="https://zeroryuu.github.io/js/schemes/pisces.js"></script>
 
-<script type="text/javascript" src="https://zeroryuu.github.io/js/bootstrap.js"></script>
+<script type="text/javascript" src="https://zeroryuu.github.io/js/scrollspy.js"></script>
+<script type="text/javascript" src="https://zeroryuu.github.io/js/post-details.js"></script>
+<script type="text/javascript" src="https://zeroryuu.github.io/js/toc.js"></script>
 
-<script type="text/javascript" id="motion.page.archive">
-  $('.archive-year').velocity('transition.slideLeftIn');
-</script>
+<script type="text/javascript" src="https://zeroryuu.github.io/js/bootstrap.js"></script>
 
 <script type="text/javascript" src="https://zeroryuu.github.io/js/search.js"></script>
 <script type="text/x-mathjax-config">

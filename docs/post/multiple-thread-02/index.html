@@ -4,19 +4,19 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" /> 
-    <title>Tags - zero&#39;s blog</title>
+    <title>Multiple Thread 02 - zero&#39;s blog</title>
     <meta name="keywords" content="">
     
-    <meta property="og:title" content="Tags">
+    <meta property="og:title" content="Multiple Thread 02">
     <meta property="og:site_name" content="zero&#39;s blog">
     <meta property="og:image" content="/img/author.jpg"> 
-    <meta name="title" content="Tags - zero&#39;s blog" />
+    <meta name="title" content="Multiple Thread 02 - zero&#39;s blog" />
     <meta name="description" content=""> 
     <link rel="shortcut icon" href="https://zeroryuu.github.io/img/favicon.ico" />
     <link rel="apple-touch-icon" href="https://zeroryuu.github.io/img/apple-touch-icon.png" />
     <link rel="apple-touch-icon-precomposed" href="https://zeroryuu.github.io/img/apple-touch-icon.png" />
     <link href="https://zeroryuu.github.io/js/vendor/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
-    
+    <link href="https://zeroryuu.github.io/js/vendor/fancybox/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
     <link href="https://zeroryuu.github.io/css/main.css" rel="stylesheet" type="text/css" />
     <link href="https://zeroryuu.github.io/css/syntax.css" rel="stylesheet" type="text/css" />
     <script type="text/javascript" id="hexo.configuration">
@@ -24,13 +24,13 @@
   var CONFIG = {
     scheme: 'Pisces',
     sidebar: {"position":"left","display":"post"},
-    fancybox: false, 
+     fancybox: true, 
     motion: true
   };
 </script>
 </head>
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
-<div class="container one-collumn sidebar-position-left   ">
+<div class="container one-collumn sidebar-position-left page-home  ">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -99,41 +99,161 @@
         <div class="content-wrap">
           <div id="content" class="content">
             
-<div id="posts" class="posts-expand">
-    
+<section id="posts" class="posts-expand">
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <header class="post-header">
+      <h1 class="post-title" itemprop="name headline">
+        <a class="post-title-link" href="https://zeroryuu.github.io/post/multiple-thread-02/" itemprop="url">
+        Multiple Thread 02
+        </a>
+      </h1>
+      <div class="post-meta">
+      <span class="post-time">
+<span class="post-meta-item-icon">
+    <i class="fa fa-calendar-o"></i>
+</span>
+<span class="post-meta-item-text">Published at:</span>
+<time itemprop="dateCreated" datetime="2016-03-22T13:04:35+08:00" content="2021-01-22">
+    2021-01-22
+</time>
+</span>
+      
 
-      
-       <div class="tag-cloud">
-        <div class="tag-cloud-title">
-            Total 7 tags
-        </div>
-        <div class="tag-cloud-tags">
-            
-             <a href="https://zeroryuu.github.io/tags/function" style="font-size: 24.5px; color: #212121">function</a>
-             <span class="tag-list-count"><sup>1</sup></span>
-             
-             <a href="https://zeroryuu.github.io/tags/k8s" style="font-size: 24.5px; color: #212121">k8s</a>
-             <span class="tag-list-count"><sup>9</sup></span>
-             
-             <a href="https://zeroryuu.github.io/tags/monitor" style="font-size: 24.5px; color: #212121">monitor</a>
-             <span class="tag-list-count"><sup>1</sup></span>
-             
-             <a href="https://zeroryuu.github.io/tags/multiple-thread" style="font-size: 24.5px; color: #212121">multiple-thread</a>
-             <span class="tag-list-count"><sup>3</sup></span>
-             
-             <a href="https://zeroryuu.github.io/tags/spring" style="font-size: 24.5px; color: #212121">spring</a>
-             <span class="tag-list-count"><sup>1</sup></span>
-             
-             <a href="https://zeroryuu.github.io/tags/springbatch" style="font-size: 24.5px; color: #212121">springbatch</a>
-             <span class="tag-list-count"><sup>1</sup></span>
-             
-             <a href="https://zeroryuu.github.io/tags/springboot" style="font-size: 24.5px; color: #212121">springboot</a>
-             <span class="tag-list-count"><sup>1</sup></span>
-             
-        </div>
-       </div>
-      
+  <span class="post-category" >
+  &nbsp; | &nbsp;
+  <span class="post-meta-item-icon">
+    <i class="fa fa-folder-o"></i>
+  </span>
+  <span class="post-meta-item-text">Categories:</span>
+  
+    <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
+      <a href="https://zeroryuu.github.io/categories/java" itemprop="url" rel="index">
+        <span itemprop="name">java</span>
+      </a>
+      &nbsp; 
+    </span>
+  
+</span>
+
+
+       <span>
+&nbsp; | &nbsp;
+<span class="post-meta-item-icon">
+    <i class="fa fa-eye"></i>
+</span>
+<span class="post-meta-item-text">Reading:</span>
+<span class="leancloud-visitors-count">114 words ~1min</span>
+</span>
+      </div>
+    </header>
+    <div class="post-body" itemprop="articleBody">
+    <h2 id="java-のスレッド">Java のスレッド</h2>
+<h3 id="javaスレッドのlife-cycle">javaスレッドのlife cycle</h3>
+<p><img src="https://zeroryuu.github.io/images/java-thread-life-cycle.png" alt="thread life cycle"></p>
+<h3 id="スレッドの生成方法">スレッドの生成方法</h3>
+<h4 id="implements-runnable">implements Runnable</h4>
+<ul>
+<li>実行結果を返却しない</li>
+</ul>
+<h4 id="extends-thread">extends Thread</h4>
+<ul>
+<li>実行結果を返却しない</li>
+</ul>
+<h4 id="callable--future-or-callable--futuretask">Callable + Future or Callable + FutureTask</h4>
+<ul>
+<li>
+<p>実行結果を返却する</p>
+</li>
+<li>
+<p>Callable + Future  sample code</p>
+</li>
+</ul>
+<pre><code class="language-code" data-lang="code"> public class CallableTask implements Callable&lt;String&gt; {
+    @Override
+    public String call() throws Exception {
+        System.out.println(Thread.currentThread().getName() +&quot; is running&quot;);
+        return &quot;execute end&quot;;
+    }
+
+    public static void main(String[] args) throws Exception {
+        CallableTask callableTask = new CallableTask();
+        // create execute service
+        ExecutorService executorService = Executors.newFixedThreadPool(1);
+        // submit
+        Future&lt;String&gt; result = executorService.submit(callableTask);
+        //get result
+        System.out.println(result.get());
+        //shutdown
+        executorService.shutdown();
+
+    }
+}
+
+</code></pre><p><a href="https://docs.oracle.com/en/java/javase/15/docs/api/java.base/java/util/concurrent/Future.html">Future doc</a></p>
+<ul>
+<li>Callable + FutureTask  sample code</li>
+</ul>
+<pre><code class="language-code" data-lang="code">        ..........
+        FutureTask&lt;String&gt; futureTask = new FutureTask&lt;&gt;(callableTask);
+        new Thread(futureTask).start();
+        System.out.println(futureTask.get());
+</code></pre><p><a href="https://docs.oracle.com/en/java/javase/15/docs/api/java.base/java/util/concurrent/FutureTask.html">FutureTask doc</a></p>
+<h3 id="スレッドの停止">スレッドの停止</h3>
+<ul>
+<li>フラグを設置する</li>
+</ul>
+<h3 id="スレッドの通知と待ち">スレッドの通知と待ち</h3>
+<h4 id="待ちwait">待ち(wait())</h4>
+<ul>
+<li>呼び出したスレッドはそのオブジェクトのウェイトセットに入ります。
+<ul>
+<li><code>注意</code> synchronized blockの中に呼び出す。</li>
+<li>synchronized block以外のところから呼び出すすると、throw IllegalMonitorStateException</li>
+</ul>
+</li>
+</ul>
+<h4 id="通知notifynotifyall">通知(notify(),notifyAll())</h4>
+<ul>
+<li>そのオブジェクトのウェイトセットにあるスレッドが1つ再開します。
+<ul>
+<li>複数の場合、その中の一つを再開します。</li>
+<li><code>注意</code> synchronized blockの中に呼び出す。</li>
+</ul>
+</li>
+</ul>
+    </div>
+    <footer class="post-footer">
+     
+ 
+<div class="post-tags">     
+     
+    <a href="https://zeroryuu.github.io/tags/multiple-thread" rel="tag" title="Multiple Thread">#Multiple Thread#</a>
+    
 </div>
+
+
+
+     <div class="post-nav">
+    <div class="post-nav-next post-nav-item">
+    
+        <a href="https://zeroryuu.github.io/post/multiple-thread-03/" rel="next" title="Multiple Thread 03">
+        <i class="fa fa-chevron-left"></i> Multiple Thread 03
+        </a>
+    
+    </div>
+
+    <div class="post-nav-prev post-nav-item">
+    
+        <a href="https://zeroryuu.github.io/post/multiple-thread-01/" rel="prev" title="Multiple Thread 01">
+        Multiple Thread 01 <i class="fa fa-chevron-right"></i>
+        </a>
+    
+    </div>
+</div>
+      
+    </footer>
+  </article>
+</section>
 
           </div>
         </div>
@@ -233,16 +353,18 @@
 <script type="text/javascript" src="https://zeroryuu.github.io/js/vendor/velocity/velocity.ui.min.js?v=1.2.1"></script>
 <script src="https://zeroryuu.github.io/js/vendor/ua-parser-js/dist/ua-parser.min.js?v=0.7.9"></script>
 
+<script src="https://zeroryuu.github.io/js/vendor/fancybox/jquery.fancybox.pack.js?v=2.1.5"></script>
+
 <script type="text/javascript" src="https://zeroryuu.github.io/js/utils.js"></script>
 <script type="text/javascript" src="https://zeroryuu.github.io/js/motion.js"></script>
 <script type="text/javascript" src="https://zeroryuu.github.io/js/affix.js"></script>
 <script type="text/javascript" src="https://zeroryuu.github.io/js/schemes/pisces.js"></script>
 
-<script type="text/javascript" src="https://zeroryuu.github.io/js/bootstrap.js"></script>
+<script type="text/javascript" src="https://zeroryuu.github.io/js/scrollspy.js"></script>
+<script type="text/javascript" src="https://zeroryuu.github.io/js/post-details.js"></script>
+<script type="text/javascript" src="https://zeroryuu.github.io/js/toc.js"></script>
 
-<script type="text/javascript" id="motion.page.archive">
-  $('.archive-year').velocity('transition.slideLeftIn');
-</script>
+<script type="text/javascript" src="https://zeroryuu.github.io/js/bootstrap.js"></script>
 
 <script type="text/javascript" src="https://zeroryuu.github.io/js/search.js"></script>
 <script type="text/x-mathjax-config">
