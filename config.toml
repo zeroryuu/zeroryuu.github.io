@@ -1,0 +1,36 @@
+baseURL = "http://zeroryuu.github.io/"
+languageCode = "en-us"
+title = "zero's blog"
+theme = "next"
+enableRobotsTXT = true
+PygmentsCodeFences = true
+
+canonifyurls = true
+builddrafts = false
+publishDir = "docs"
+
+[Author]
+  Name = "zero"
+
+[params]
+  AuthorImg = "/images/profile.jpg"
+
+
+[menu]
+  [[menu.main]]
+  name = "Home"
+  identifier = "home"
+  weight = 100
+  url = "/"
+
+  [[menu.main]]
+  name = "Post"
+  weight = 200
+  identifier = "post"
+  url = "/post/"
+
+  [[menu.main]]
+  name = "About"
+  weight = 300
+  identifier = "about"
+  url = "/about/"
